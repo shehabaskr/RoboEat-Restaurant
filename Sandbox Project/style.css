@@ -1,0 +1,104 @@
+* {
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(245, 231, 204);
+}
+.navbar, .navbar-nav, .nav-link {
+    background-color:#092635;
+    color: wheat !important;
+    padding: 5px 1%;
+}
+.navbar-brand{
+    color: wheat !important;
+}
+.navbar{
+    position: relative;
+}
+a{
+    color: inherit;
+}
+a:focus, a:hover{
+    color: white !important;
+}
+.navbar-collapse{
+    flex-grow: 0;
+    width: 291px;
+    margin-left: 33%;
+
+}
+.carousel{
+    margin-bottom: 5%;
+}
+h5{
+    font-weight: bold;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next, .carousel-control-prev :focus{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev, .carousel-control-next :focus{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.card-img, .card-img-top{
+    max-height: 190px;
+    opacity: 0.9;
+    object-fit: cover;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px !important;    
+    background-color: inherit;
+}
+.card{
+    border: #092635 solid 1px;
+    height: 100%;
+}
+
+.card:hover{
+    color: wheat;
+    background-color: #092635;
+    .card-img-top{
+        opacity: 1;
+    }
+}
+.footer-text{
+    color: #092635 !important;
+}
+.form-title{
+    text-align: center;
+    margin: 2% 0;
+}
+.form-group{
+    margin-top: 1%;
+}
+.navbar-toggler{
+    border: none !important;
+    
+}
+.fa-bars :hover{
+    color: white !important;
+}
+.navbar-toggler-icon {
+    background-image: none !important;
+    display: inline;
+}
+.navbar-toggler:focus{
+    color: wheat !important;
+}
+.carousel-item img {
+    height: 35rem;
+    object-fit: cover;
+}
+.btn{
+    background-color: #092635;
+    color: wheat;
+}
+.btn:hover{
+    color: white !important;
+    border: 1px solid wheat !important;
+}
